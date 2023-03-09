@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.1.1/tailwind.min.css"
+    integrity="sha512-BAK6UB671tmfzrkeH1CacTvgHQ3aLAFnT2KsigdATsc5X7+3u42tb5vjmAoDiqtxphP5dNZ3cDygivTsGEJhGw=="
+    crossorigin="anonymous" />
+  <script src="calculator.js"></script>
+  <title>Calculator</title>
+</head>
+<body class="bg-gray-300">
+  <section class="h-screen flex items-center justify-center">
+    <div id="container" class="bg-white h-2/3 w-8/12 lg:w-3/12 rounded-lg shadow-lg">
+      <div id="title" class="py-2 text-gray-600 text-center text-2xl font-semibold
+      border-b-2">
+        <h3>
+          Calculator App
+        </h3>
+      </div>
+      <div id="table" class="mt-4 px-4">
+        <div id="row1" class="flex justify-between">
+          <input type="text" id="result" class="w-64 h-10 p-2 border bg-gray-600 text-white focus:outline-white rounded-lg">
+          <input type="button" value="C" onclick="cancel()" class="bg-red-500 w-10 border-white rounded-lg text-white shadow-lg">
+        </div>
+        <div id="row2" class="flex justify-between mt-4">
+        <input type="button" value="1" onclick="display('1')" class="bg-gray-300 h-10 w-10 border-white rounded-lg text-gray-600 shadow-lg">
+        <input type="button" value="2" onclick="display('2')" class="bg-gray-300 h-10 w-10 border-white rounded-lg text-gray-600 shadow-lg">
+        <input type="button" value="3" onclick="display('3')" class="bg-gray-300 h-10 w-10 border-white rounded-lg text-gray-600 shadow-lg">
+        <input type="button" value="/" onclick="display('/')" class="bg-gray-300 h-10 w-10 border-white rounded-lg text-gray-600 shadow-lg">
+        </div>
+        <div id="row3" class="flex justify-between mt-4">
+        <input type="button" value="4" onclick="display('4')" class="bg-gray-300 h-10 w-10 border-white rounded-lg text-gray-600 shadow-lg">
+        <input type="button" value="5" onclick="display('5')" class="bg-gray-300 h-10 w-10 border-white rounded-lg text-gray-600 shadow-lg">
+        <input type="button" value="6" onclick="display('6')" class="bg-gray-300 h-10 w-10 border-white rounded-lg text-gray-600 shadow-lg">
+        <input type="button" value="-" onclick="display('-')" class="bg-gray-300 h-10 w-10 border-white rounded-lg text-gray-600 shadow-lg">
+        </div>
+        <div id="row4" class="flex justify-between mt-4">
+        <input type="button" value="7" onclick="display('7')" class="bg-gray-300 h-10 w-10 border-white rounded-lg text-gray-600 shadow-lg">
+        <input type="button" value="8" onclick="display('8')" class="bg-gray-300 h-10 w-10 border-white rounded-lg text-gray-600 shadow-lg">
+        <input type="button" value="9" onclick="display('9')" class="bg-gray-300 h-10 w-10 border-white rounded-lg text-gray-600 shadow-lg">
+        <input type="button" value="+" onclick="display('+')" class="bg-gray-300 h-10 w-10 border-white rounded-lg text-gray-600 shadow-lg">
+        </div>
+        <div id="row5" class="flex justify-between mt-4">
+        <input type="button" value="." onclick="display('.')" class="bg-gray-300 h-10 w-10 border-white rounded-lg text-gray-600 shadow-lg">
+        <input type="button" value="0" onclick="display('0')" class="bg-gray-300 h-10 w-10 border-white rounded-lg text-gray-600 shadow-lg">
+        <input type="button" value="=" onclick="solve()" class="bg-gray-300 h-10 w-10 border-white rounded-lg text-gray-600 shadow-lg">
+        <input type="button" value="*" onclick="display('*')" class="bg-gray-300 h-10 w-10 border-white rounded-lg text-gray-600 shadow-lg">
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

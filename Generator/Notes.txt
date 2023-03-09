@@ -1,0 +1,4 @@
+Generate a password for a user based on their inputs.
+Prompt them for their name, age and birth month and create a password for them.
+E.g: if the user's name is john, age is 20 and birth month is May, their password would be 20JohnMay.
+Use this same format to create the password.
