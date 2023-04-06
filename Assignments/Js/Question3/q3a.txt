@@ -1,0 +1,36 @@
+React Js
+1. React.js is a JavaScript library.
+2. React.js was released in 2013.
+3. React.js is more simplified as it follows MVC ie., Model View Control.
+4. React.js holds JSX hence the usage of HTML codes and syntax is enabled.
+5. React.js is preferred when the dynamic content needed is intensive.
+6. React.js written in JavaScript.
+7. React.js Does not use the Dependency Injection concept.
+8. Routing is not easy in React JS
+9. It is highly scalable.
+10. It supports Uni-directional data binding that is one way data binding.
+11. It has virtual DOM.
+12. It supports Unit Testing.
+13. React doesn't have an official tooling, but it has a vast ecosystem of third-party tools like webpack, babel, and others.
+14. React Native is a popular mobile development framework based on React.
+15. React is known for its performance because of the virtual DOM, which minimizes the number of DOM updates.
+..........................................................................................................................
+
+
+Angular Js
+1. Angular is a framework.
+2. Angular.js was released in 2010.
+3. The architecture of angular on the other hand is a bit complex as it follows MVVM models ie., Model View-ViewModel.
+4. Angular, on the other, is a mere subset of HTML.
+5. Angular is platform-independent and hence is compatible to work in any platform.
+6. Written in Microsoft’s Typescript language, which is a superset of ECMAScript 6 (ES6).
+7. Angular Hierarchical Dependency Injection system used.
+8. Routing is comparatively easy as compare to React JS.
+9. It is less scalable than React JS.
+10. It supports Bi-directional data binding that is two data binding.
+11. It has regular DOM.
+12. It supports both Unit testing and Integration testing.
+13. Angular has an official CLI tool that provides a streamlined development experience.
+14. Angular has Ionic, a mobile development framework based on Angular.
+15. Angular is also fast, but it uses a real DOM, which can be slower.
+..........................................................................................................................

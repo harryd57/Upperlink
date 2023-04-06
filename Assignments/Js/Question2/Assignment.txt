@@ -1,0 +1,2 @@
+2a. Write 10 functions that performs different array methods.
+2b. Data type manipulations, write a function that performs data type conversion.

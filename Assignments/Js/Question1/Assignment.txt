@@ -1,0 +1,2 @@
+1a. Pick 3 data types apart from string, number, boolean and Create a function that returns a value.
+1b. Write an async function that returns a callback function, the callback function should be a timed promise.

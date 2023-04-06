@@ -1,0 +1,4 @@
+3. Write 15 differences between React and Angular.
+3b. An ecommerce store, a catalougue of merch, items and price, and a user should be a able to search for merch.
+    when an item isn't found a dialog box pops up to search again or walk away.
+    When a price is stated a change is returned
