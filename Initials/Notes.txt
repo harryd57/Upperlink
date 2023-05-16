@@ -1,2 +1,3 @@
+Questions
 Convert a user's name to initials based on their input. E.g:
 if the user inputs "Bambi Awe" alert "Your initials are B.A".
